@@ -17,9 +17,6 @@ public class Tauler {
     }
 
 
-
-
-
     public String[] getPalabraEndevinada() {
         return palabraEndevinada;
     }
@@ -42,5 +39,12 @@ public class Tauler {
 
     public void setTotalIntents(int totalIntents) {
         this.totalIntents = totalIntents;
+    }
+
+    public Tauler(){
+        paraulaSecreta = new char[0];
+        palabraEndevinada = new String[0];
+        intents = 0;
+        totalIntents = 0;
     }
 }
