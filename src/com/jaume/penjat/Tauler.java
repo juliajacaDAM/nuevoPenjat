@@ -99,9 +99,9 @@ public class Tauler {
     }
 
     public String imprimirVides(){
-        String mensaje = "Et queden " + this.intents + "vidas de " + this.totalIntents;
+        String mensaje = "Et queden " + this.intents + " vidas de " + this.totalIntents;
         if(this.intents == 1){
-            mensaje = "Et queda " + this.intents + "vida de " + this.totalIntents;
+            mensaje = "Et queda " + this.intents + " vida de " + this.totalIntents;
         }
         return mensaje;
     }
