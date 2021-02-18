@@ -105,4 +105,13 @@ public class Tauler {
         }
         return mensaje;
     }
+
+    public boolean hasGuanyat() {
+        for (int i = 0; i < this.palabraEndevinada.length; i++) {
+            if (this.palabraEndevinada[i] == null) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
