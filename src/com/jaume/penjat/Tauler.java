@@ -50,14 +50,36 @@ public class Tauler {
         for(int i = 0 ; i < palabra.length(); i++){
             if(palabra.charAt(i) == new Character(value = ' ')){
                 this.palabraEndevinada[i] == " ";
-            } 
+            }
         }
         this.setIntents(intentos);
         this.setTotalIntents(intentos)
+
     public Tauler(){
         paraulaSecreta = new char[0];
         palabraEndevinada = new String[0];
         intents = 0;
         totalIntents = 0;
     }
+
+
+
+
+
+    public String imprimir(){
+        String resultat = "";
+        for(int i = 0; i < palabraEndevinada.length; i++){
+            if(palabraEndevinada[i] == null){
+                resultat = resultat+"_";
+
+            }else if(palabraEndevinada[i] == " "){
+                    resultat = resultat+" ";
+            }else{
+                resultat = resultat+palabraEndevinada[i];
+            }
+        }
+        return resultat;
+    }
+
+
 }
