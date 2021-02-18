@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f17c03f-9379-4023-91ed-ae83e3f304d2" name="Default Changelist" comment="Creado clase tablero&#10;Añadido atributos&#10;Añadido getters y setters&#10;&#10;Tarea1">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2021_16_48_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2021_16_48__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jaume/penjat/Tauler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jaume/penjat/Tauler.java" afterDir="false" />
     </list>

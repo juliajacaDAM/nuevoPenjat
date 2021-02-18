@@ -60,4 +60,25 @@ public class Tauler {
         this.setIntents(intentos);
         this.setTotalIntents(intentos);
     }
+
+
+
+
+
+    public String imprimir(){
+        String resultat = "";
+        for(int i = 0; i < palabraEndevinada.length; i++){
+            if(palabraEndevinada[i] == null){
+                resultat = resultat+"_";
+
+            }else if(palabraEndevinada[i] == " "){
+                    resultat = resultat+" ";
+            }else{
+                resultat = resultat+palabraEndevinada[i];
+            }
+        }
+        return resultat;
+    }
+
+
 }
