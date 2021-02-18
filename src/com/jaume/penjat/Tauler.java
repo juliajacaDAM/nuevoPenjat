@@ -80,5 +80,22 @@ public class Tauler {
         return resultat;
     }
 
+    public String verificar(String letra) {
+        if(letra.length() > 1){
+            return "Lletra incorrecte";
+        }else{
+            boolean exist = false;
+            for (int i = 0; i < this.paraulaSecreta.length; i++) {
+                if (this.paraulaSecreta[i] == letra.charAt(0)) {
+                    exist = true;
+                    this.palabraEndevinada[i] = letra;
+                }
+            }
+            if(!exist){
+                this.setIntents(this.getIntents()-1);
+            }
+        }
+        return"";
+    }
 
 }
